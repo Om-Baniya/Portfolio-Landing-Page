@@ -1,0 +1,155 @@
+*{
+    
+    font-family: 'Poppins', sans-serif;
+    
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(#e7fef3,#bdd8f5);
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    
+}
+
+li{
+    list-style: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+section button{
+    background-color: #2c64cf;
+    padding:4px 10px;
+    border-radius: 10px;
+    border: 2px black;
+    color: white;
+    cursor: pointer;
+    width:fit-content;
+    font-weight: fit-content;
+}
+button:hover{
+    background-color:white;
+    color:#2c64cf;
+}
+header{
+    padding: 15px;
+   
+}
+
+nav{
+    display: flex;
+    width: 110%;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+nav.logo{
+    font-size: 30px;
+    font-weight: 1500;
+}
+
+nav ul{
+    display: flex;
+    align-items:center;
+    gap:50px;
+    font-weight: 500;
+}
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+.search-box{
+    display: flex;
+    gap:7px; 
+   
+}
+input{
+    padding:4px 10px;
+}
+
+.hero-section{
+    display: flex;
+    align-items: center;
+}
+.hero-left-section {
+    width: 60%;
+    padding: 0 8%;
+  }
+  
+
+.hero-left-section h1{
+    font-size:40px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.hero-left-section h1 span.web{
+    font-size: 2.5rem;
+    color:darkorange;
+    font-weight: 900;
+}
+.hero-left-section h1 span.front{
+    font-size: 2.5rem;
+    color:#2c64cf;
+    font-weight: 900;
+}
+
+.hero-left-section p span{
+    font-weight: 900;
+    font-size:large;
+    color: darkorange;
+}
+.hero-left-section p{
+    font-size: large;
+    font-weight: 700;
+}
+.hero-right-section{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.hero-right-section image {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+}
+#sw-js-blob-svg{
+height:350px;
+width: 350px;
+}
+
+footer {
+    font-weight: 600;
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-around;
+  }
+  
+footer ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+  }
+  i{
+    font-size: large;
+  }
+ i:hover{
+color: #2c64cf;
+font-size: large;
+}
